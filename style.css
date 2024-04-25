@@ -1,0 +1,120 @@
+body {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 600px;
+  margin: 0 auto;
+  min-width: 340px;
+  max-width: 1000px;
+  background: rgba( 255, 255, 255, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.3 );
+  backdrop-filter: blur( 3px );
+  -webkit-backdrop-filter: blur( 3px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 10px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.move-icon {
+  height: 80px;
+}
+
+.move-icon:hover {
+  opacity: 0.6;
+}
+
+.rock-move-btn,
+.paper-move-btn,
+.scissors-move-btn {
+  border: 2px solid white;
+  padding: 0px;
+  background-color: rgb(25, 25, 25);
+  border-radius: 100px;
+  width: 140px;
+  height: 140px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.rock-move-btn:hover,
+.paper-move-btn:hover,
+.scissors-move-btn:hover {
+  border: 2px solid rgb(212, 212, 7);
+}
+
+.rock,
+.paper,
+.scissors {
+  font-size: 50px;
+  display: inline;
+  margin-bottom: 20px;
+}
+
+.result {
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+  font-weight: bold;
+  text-align: center;
+}
+
+.reset-btn,
+.auto-play-btn {
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgb(117, 67, 5);
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.reset-btn:hover,
+.auto-play-btn:hover {
+  background-color: rgb(158, 158, 96);
+  color: rgb(29, 20, 20);
+  border: 1px solid black;
+}
+
+.auto-play-btn {
+  background-color: rgb(49, 146, 49);
+}
+
+.auto-play-stop {
+  background-color: brown;
+}
+
+.author-text{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Responsive */
+@media only screen and (max-width: 530px) {
+  .container {
+      margin: 0 20px;
+      max-width: 96%;
+      min-width: 96%;
+  }
+}
