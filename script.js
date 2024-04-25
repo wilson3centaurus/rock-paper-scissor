@@ -166,4 +166,3 @@ autoButton.addEventListener('click', () => {
     autoPlayStop.classList.remove('auto-play-stop');
   }
 });
-
