@@ -65,7 +65,6 @@ function play1() {
       You <p class="rock">✊</p> | <p class="rock">✌️</p> Computer 
       <p>Wins: ${score.wins} Losses: ${score.losses}  Draws: ${score.draws}</p>`);
   }
-
   localStorage.setItem('score', JSON.stringify(score));
 }*/
 
