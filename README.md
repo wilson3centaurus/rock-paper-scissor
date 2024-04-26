@@ -1,6 +1,6 @@
 # **Rock Paper Scissors Game**
 
-Welcome to the Rock Paper Scissors game! This simple game allows players to compete against each other in the classic game of Rock Paper Scissors. It has also autoplay feature where 
+Welcome to the Rock Paper Scissors game! This simple game allows player to compete against the computer in the classic game of Rock Paper Scissors. It has also autoplay feature where 
 the computer will be playing against itself.
 
 ## Features
